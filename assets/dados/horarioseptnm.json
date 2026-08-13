@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Informática",
+        "turma": "1º Ano",
+        "horario": "assets/img/horarios/eptnm-informatica-1.svg"
+    },
+    {
+        "id": 2,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Informática",
+        "turma": "2º Ano A",
+        "horario": "assets/img/horarios/eptnm-informatica-2.svg"
+    },
+     {
+        "id": 3,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Informática",
+        "turma": "2º Ano B",
+        "horario": "assets/img/horarios/eptnm-informatica-2.svg"
+    },
+      {
+        "id": 4,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Informática",
+        "turma": "3º Ano",
+        "horario": "assets/img/horarios/eptnm-informatica-2.svg"
+    },
+    {
+        "id": 5,
+        "modalidade": "EPTNM",
+        "turno": "Vespertino",
+        "curso": "Técnico em Edificações",
+        "turma": "1º Ano",
+        "horario": "assets/img/horarios/eptnm-edificacoes-1.svg"
+    },
+    {
+        "id": 6,
+        "modalidade": "PROSUB",
+        "turno": "Vespertino",
+        "curso": "Técnico em Logística",
+        "turma": "1º Módulo",
+        "horario": "assets/img/horarios/prosub-logistica-1.svg"
+    },
+    {
+        "id": 7,
+        "modalidade": "PROSUB",
+        "turno": "Vespertino",
+        "curso": "Técnico em Informática",
+        "turma": "1º Módulo",
+        "horario": "assets/img/horarios/prosub-informatica-1.svg"
+    },
+    {
+        "id": 8,
+        "modalidade": "PROSUB",
+        "turno": "Matutino",
+        "curso": "Técnico em Administração",
+        "turma": "2º Ano",
+        "horario": "assets/img/horarios/prosub-administracao-2.svg"
+    },
+    {
+        "id": 9,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Administração",
+        "turma": "1º Ano",
+        "horario": "assets/img/horarios/prosub-administracao-2.svg"
+    }
+]
