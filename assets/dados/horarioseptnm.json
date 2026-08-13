@@ -41,27 +41,27 @@
     },
     {
         "id": 6,
-        "modalidade": "PROSUB",
+        "modalidade": "EPTNM",
         "turno": "Vespertino",
         "curso": "Técnico em Logística",
         "turma": "1º Módulo",
-        "horario": "assets/img/horarios/prosub-logistica-1.svg"
+        "horario": "assets/img/horarios/EPTNM-logistica-1.svg"
     },
     {
         "id": 7,
-        "modalidade": "PROSUB",
+        "modalidade": "EPTNM",
         "turno": "Vespertino",
         "curso": "Técnico em Informática",
         "turma": "1º Módulo",
-        "horario": "assets/img/horarios/prosub-informatica-1.svg"
+        "horario": "assets/img/horarios/EPTNM-informatica-1.svg"
     },
     {
         "id": 8,
-        "modalidade": "PROSUB",
+        "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Administração",
         "turma": "2º Ano",
-        "horario": "assets/img/horarios/prosub-administracao-2.svg"
+        "horario": "assets/img/EPTNM/imagen/1Log.png"
     },
     {
         "id": 9,
@@ -69,6 +69,6 @@
         "turno": "Matutino",
         "curso": "Técnico em Administração",
         "turma": "1º Ano",
-        "horario": "assets/img/horarios/prosub-administracao-2.svg"
+        "horario": "assets/img/horarios/EPTNM-administracao-2.svg"
     }
 ]
