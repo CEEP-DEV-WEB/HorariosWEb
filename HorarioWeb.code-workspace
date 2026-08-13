@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "HorariosWEb",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HorariosWEb"
+	}
+}
