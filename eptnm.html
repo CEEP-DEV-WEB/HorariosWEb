@@ -3,61 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Horario - CEEP Áureo FIlho</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Sistema de Horario - CEEP Áureo Filho</title>
+    
+    <!-- CSS do Bootstrap 5.3 (Corrigido) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Ícones do Bootstrap 1.11.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body class="container-fluid m-0 p-0">
-    <section id="cabecalho" class="bg-primary-subtle">
-        <div><a><img src="assets/img/logo.png"> </a></div>
-        <nav>
-            <div id="menu" class="d-flex justify-content-end">
-            <li>Início</li>
-            <li>Sobre</li>
-            <li>EPTNM</li>
-            <li>PROSUB</li>
-            <li>Faq</li>
+    <section id="topo" class="py-2 bg-primary bg-gradient">
+            <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
+                
+                <!-- Logo na Esquerda -->
+                <a href="#" class="navbar-brand">
+                    <img src="assets/img/logo.png" alt="EPTEC Bahia" height="50">
+                </a>
+
+                <!-- Links de Navegação na Direita -->
+            <nav>
+                <ul class="nav gap-3 gap-md-4 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link link-light link-opacity-75-hover fw-semibold p-0" href="index.html">INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light link-opacity-75-hover fw-semibold p-0" href="sobre.html">SOBRE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light link-opacity-75-hover fw-semibold p-0" href="eptnm.html">EPTNM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light link-opacity-75-hover fw-semibold p-0" href="prosub.html">PROSUB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light link-opacity-75-hover fw-semibold p-0" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </nav>
+
             </div>
-        </nav>
     </section>
-    <section id="pesquisa">
-        <input type="text" />
+        <section id="pesquisa" class="text-center text-dark py-5 my-0 mb-3 rounded-3 shadow-sm overflow-hidden d-flex justify-content-center align-items-center" 
+            style="background: linear-gradient(rgba(255, 255, 255, 0.75)), url('assets/img/banner.site.jpg') center/cover no-repeat;">
+        
+<div class="w-50 mx-auto text-center">
+    <label for="pesquisa" class="form-label fs-3 fw-semibold">Pesquise</label>
+    
+    <!-- Input Group une o campo e o botão -->
+        <div class="input-group">
+            <input type="search" id="pesquisa" class="form-control border-success" placeholder="Digite o que procura...">
+            <button class="btn btn-primary px-4" type="button"> <i class="bi bi-search"></i></button>
+        </div>
+</div>
+
     </section>
+
     <section id="turno" class="container bg-secondary-subtle">
         <head>
             <h2 class="text-center">Turno Matutino</h2>
         </head>
         <main>
-            <div id="info" class="row">
-                <h3>Curso Técnico em Informática</h3>
-                <div class="card mb-2" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">1° Ano de Informatica</h5>
-                        <a href="#" class="card-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#1infoModal">Acesse aqui</a>
-                        <a href="assets/downloads/Matutino/pdf/1info.pdf" class="card-link" download="1info.pdf">Baixar aqui</a>
-                    </div>
-                </div>
-                <div class="card mb-2" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">2° Ano de Informatica A</h5>
-                        <a href="#" class="card-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#2infoModal">Acesse aqui</a>
-                        <a href="assets/downloads/Matutino/pdf/2info.pdf" class="card-link" download="2info.pdf">Baixar aqui</a>
-                    </div>
-                </div>
-                <div class="card mb-2" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">2° Ano de Informatica B</h5>
-                        <a href="#" class="card-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#2binfoModal">Acesse aqui</a>
-                        <a href="assets/downloads/Matutino/pdf/2info (2).pdf" class="card-link" download="2info.pdf">Baixar aqui</a>
-                    </div>
-                </div>
-                    <div class="card mb-2" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">3° Ano de Informatica</h5>
-                        <a href="#" class="card-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#3binfoModal">Acesse aqui</a>
-                        <a href="assets/downloads/Matutino/pdf/3info.pdf" class="card-link" download="3info.pdf">Baixar aqui</a>
-                    </div>
+
+            
+<div id="info" class="row g-3">
+    <!-- Título ocupando toda a largura superior -->
+    <div class="col-12 mb-2">
+        <h3><i class="bi bi-laptop"></i> Curso Técnico em Informática</h3>
+    </div>
+
+    <!-- 1ª Coluna -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">1° Ano de Informática</h5>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2" data-bs-toggle="modal" data-bs-target="#1infoModal">Acesse aqui</a>
+                    <a href="assets/downloads/Matutino/pdf/1info.pdf" class="btn btn-outline-danger btn-sm w-100" download="1info.pdf">Baixar aqui</a>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- 2ª Coluna -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">2° Ano de Informática A</h5>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2" data-bs-toggle="modal" data-bs-target="#2infoModal">Acesse aqui</a>
+                    <a href="assets/downloads/Matutino/pdf/2info.pdf" class="btn btn-outline-danger btn-sm w-100" download="2info.pdf">Baixar aqui</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3ª Coluna -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">2° Ano de Informática B</h5>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2" data-bs-toggle="modal" data-bs-target="#2binfoModal">Acesse aqui</a>
+                    <a href="assets/downloads/Matutino/pdf/2info (2).pdf" class="btn btn-outline-danger btn-sm w-100" download="2info.pdf">Baixar aqui</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4ª Coluna -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">3° Ano de Informática</h5>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2" data-bs-toggle="modal" data-bs-target="#3binfoModal">Acesse aqui</a>
+                    <a href="assets/downloads/Matutino/pdf/3info.pdf" class="btn btn-outline-danger btn-sm w-100" download="3info.pdf">Baixar aqui</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
             <!-- Modal 1 info-->
             <div class="modal fade" id="1infoModal" tabindex="-1" aria-labelledby="1infoModalLabel" aria-hidden="true">
@@ -119,35 +184,47 @@
             </div>
             <hr>
 
-
-
-
-
-
             <div id="edifi" class="row">
-                <h3>Curso Técnico em Edificações</h3>
+                <h3><i class="bi bi-building"></i>Curso Técnico em Edificações</h3>
 
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">1° Ano de Edificações</h5>
-                        <a href="#" class="card-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Acesse aqui</a>
-                        <a href="assets/downloads/Matutino/pdf/1edif.pdf" class="card-link" download="1edif.pdf">Baixar aqui</a>
-                    </div>
+               <!-- 1ª Coluna -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">1° Ano de Informática</h5>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2" data-bs-toggle="modal" data-bs-target="#1infoModal">Acesse aqui</a>
+                    <a href="assets/downloads/Matutino/pdf/1info.pdf" class="btn btn-outline-danger btn-sm w-100" download="1info.pdf">Baixar aqui</a>
                 </div>
-            <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">2° Ano de Edificações</h5>
-                        <a href="#" class="card-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Acesse aqui</a>
-                        <a href="assets/downloads/Matutino/pdf/2edif.pdf" class="card-link" download="2edif.pdf">Baixar aqui</a>
-                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2ª Coluna -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">2° Ano de Informática A</h5>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2" data-bs-toggle="modal" data-bs-target="#2infoModal">Acesse aqui</a>
+                    <a href="assets/downloads/Matutino/pdf/2info.pdf" class="btn btn-outline-danger btn-sm w-100" download="2info.pdf">Baixar aqui</a>
                 </div>
-            <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">3° Ano de Edificações</h5>
-                        <a href="#" class="card-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Acesse aqui</a>
-                        <a href="assets/downloads/Matutino/pdf/1info.pdf" class="card-link" download="1info.pdf">Baixar aqui</a>
-                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3ª Coluna -->
+    <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">2° Ano de Eif</h5>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2" data-bs-toggle="modal" data-bs-target="#2binfoModal">Acesse aqui</a>
+                    <a href="assets/downloads/Matutino/pdf/2info (2).pdf" class="btn btn-outline-danger btn-sm w-100" download="2info.pdf">Baixar aqui</a>
                 </div>
+            </div>
+        </div>
+    </div>
                 <hr>
 
 
