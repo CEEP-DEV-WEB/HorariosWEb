@@ -7,6 +7,21 @@ body {
         linear-gradient(rgba(255,255,255,.78), rgba(255,255,255,.78)),
         url("../img/banner.svg") center/cover no-repeat;
 }
+.border-marrom{
+    --bs-border-opacity:1;
+    border-color: #bda16e !important;
+}
+.btn-outline-marrom {
+    --bs-btn-border-color: #bda16e;
+    --bs-btn-hover-border-color: #bda16e;
+    --bs-btn-hover-bg: #bda16e;
+    --bs-btn-hover-color: #fff;
+   border-color: #bda16e !important;
+}
+.bg-marrom {
+    --bs-bg-opacity:1;
+    background-color: #bda16e !important;
+}
 
 .card-opcao {
     min-height: 210px;

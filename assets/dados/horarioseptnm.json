@@ -5,7 +5,7 @@
         "turno": "Matutino",
         "curso": "Técnico em Informática",
         "turma": "1º Ano",
-        "horario": "assets/img/horarios/eptnm-informatica-1.svg"
+        "horario": "assets/img/EPTNM/imagen/1info.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "turno": "Matutino",
         "curso": "Técnico em Informática",
         "turma": "2º Ano A",
-        "horario": "assets/img/horarios/eptnm-informatica-2.svg"
+        "horario": "assets/img/EPTNM/imagen/2info A.png"
     },
      {
         "id": 3,
@@ -21,7 +21,7 @@
         "turno": "Matutino",
         "curso": "Técnico em Informática",
         "turma": "2º Ano B",
-        "horario": "assets/img/horarios/eptnm-informatica-2.svg"
+        "horario": "assets/img/EPTNM/imagen/2info B.png"
     },
       {
         "id": 4,
@@ -29,46 +29,118 @@
         "turno": "Matutino",
         "curso": "Técnico em Informática",
         "turma": "3º Ano",
-        "horario": "assets/img/horarios/eptnm-informatica-2.svg"
+        "horario": "assets/img/EPTNM/imagen/3info.png"
     },
     {
         "id": 5,
         "modalidade": "EPTNM",
-        "turno": "Vespertino",
+        "turno": "Matutino",
         "curso": "Técnico em Edificações",
         "turma": "1º Ano",
-        "horario": "assets/img/horarios/eptnm-edificacoes-1.svg"
+        "horario": "assets/img/EPTNM/imagen/1edif.png"
     },
     {
         "id": 6,
         "modalidade": "EPTNM",
-        "turno": "Vespertino",
-        "curso": "Técnico em Logística",
-        "turma": "1º Módulo",
-        "horario": "assets/img/horarios/EPTNM-logistica-1.svg"
+        "turno": "Matutino",
+        "curso": "Técnico em Edificações",
+        "turma": "2º Ano",
+        "horario": "assets/img/EPTNM/imagen/2edif.png"
     },
     {
         "id": 7,
         "modalidade": "EPTNM",
-        "turno": "Vespertino",
-        "curso": "Técnico em Informática",
-        "turma": "1º Módulo",
-        "horario": "assets/img/horarios/EPTNM-informatica-1.svg"
+        "turno": "Matutino",
+        "curso": "Técnico em Edificações",
+        "turma": "3º Ano",
+        "horario": "assets/img/EPTNM/imagen/3edif.png"
     },
     {
         "id": 8,
         "modalidade": "EPTNM",
         "turno": "Matutino",
-        "curso": "Técnico em Administração",
-        "turma": "2º Ano",
-        "horario": "assets/img/EPTNM/imagen/1Log.png"
+        "curso": "Técnico em Logística",
+        "turma": "1º Módulo",
+        "horario": "assets/img/EPTNM/imagen/1log.png"
     },
     {
         "id": 9,
         "modalidade": "EPTNM",
         "turno": "Matutino",
-        "curso": "Técnico em Administração",
+        "curso": "Técnico em Logística",
+        "turma": "2º Ano",
+        "horario": "assets/img/EPTNM/imagen/2log.png"
+    },
+    {
+        "id": 10,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Logística",
+        "turma": "3º Ano",
+        "horario": "assets/img/EPTNM/imagen/3log.png"
+    },
+    {
+        "id": 11,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Eletromecânica",
+        "turma": "1º Módulo",
+        "horario": "assets/img/EPTNM/imagen/1eletro.png"
+    },
+    {
+        "id": 12,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Eletromecânica",
+        "turma": "2º Ano",
+        "horario": "assets/img/EPTNM/imagen/2eletro.png"
+    },
+    {
+        "id": 13,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Eletromecânica",
+        "turma": "3º Ano",
+        "horario": "assets/img/EPTNM/imagen/3eletro.png"
+    },
+    {
+        "id": 14,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Segurança do Trabalho",
         "turma": "1º Ano",
-        "horario": "assets/img/horarios/EPTNM-administracao-2.svg"
+        "horario": "assets/img/EPTNM/imagen/1ST.png"
+    },
+    {
+        "id": 15,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Segurança do Trabalho",
+        "turma": "2º Ano",
+        "horario": "assets/img/EPTNM/imagen/2ST.png"
+    },
+    {
+        "id": 16,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Segurança do Trabalho",
+        "turma": "3º Ano",
+        "horario": "assets/img/EPTNM/imagen/3ST.png"
+    },
+    {
+        "id": 17,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Mecatrônica",
+        "turma": "1º Ano",
+        "horario": "assets/img/EPTNM/imagen/1mct.png"
+    },
+    {
+        "id": 18,
+        "modalidade": "EPTNM",
+        "turno": "Matutino",
+        "curso": "Técnico em Mecatrônica",
+        "turma": "2º Ano",
+        "horario": "assets/img/EPTNM/imagen/2mct.png"
     }
 ]

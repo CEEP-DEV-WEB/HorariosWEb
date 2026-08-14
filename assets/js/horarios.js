@@ -46,24 +46,23 @@ const coresCursos = {
 
     "Técnico em Administração": "info",
 
-    "Técnico em Eletrotécnica": "dark"
+    "Técnico em Eletromecânica": "marrom",
+
+    "Técnico em Mecatrônica": "secondary"
 
 };
-
 
 // ==========================================
 // FUNÇÃO PARA DESCOBRIR A COR DO CURSO
 // ==========================================
 
 function obterCorCurso(curso) {
-
     /*
         Procura o curso dentro do objeto coresCursos.
 
         Se o curso ainda não tiver uma cor cadastrada,
         será utilizada a cor secondary (cinza).
     */
-
     return coresCursos[curso] || "secondary";
 }
 
@@ -104,11 +103,8 @@ fetch("assets/dados/horarioseptnm.json")
             return;
 
         }
-
-
         // Remove a mensagem "Carregando horários..."
         mensagem.remove();
-
 
         // Cria os cursos e turmas
         criarConteudo(dados);
@@ -136,21 +132,16 @@ fetch("assets/dados/horarioseptnm.json")
 // ==========================================
 
 function criarConteudo(dados) {
-
-
     /*
         Pega os nomes dos cursos existentes
         e elimina nomes repetidos.
     */
-
     const cursos = [
 
         ...new Set(
 
             dados.map(item => item.curso)
-
         )
-
     ];
 
 
