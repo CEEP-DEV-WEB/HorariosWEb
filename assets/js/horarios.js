@@ -71,60 +71,51 @@ function obterCorCurso(curso) {
 // CARREGAMENTO DO JSON
 // ==========================================
 
-fetch("assets/dados/horarioseptnm.json")
+// Identifica a página atual pela URL para carregar o arquivo correto
+const paginaAtual = window.location.pathname.toLowerCase();
+let arquivoJson = "assets/dados/horarioseptnm.json";
 
+if (paginaAtual.includes("prosub")) {
+    arquivoJson = "assets/dados/horariosprosub.json";
+} else if (paginaAtual.includes("eptnm")) {
+    arquivoJson = "assets/dados/horarioseptnm.json";
+}
+
+// Executa apenas um fetch dinâmico
+fetch(arquivoJson)
     .then(response => {
-
-        // Verifica se o arquivo foi encontrado
         if (!response.ok) {
-
             throw new Error(
                 "Não foi possível carregar o arquivo JSON."
             );
-
         }
-
-        // Converte o arquivo para JSON
         return response.json();
-
     })
-
-
     .then(dados => {
-
         // Verifica se existem horários cadastrados
         if (dados.length === 0) {
-
             mensagem.className = "alert alert-warning";
-
-            mensagem.textContent =
-                "Nenhum horário cadastrado.";
-
+            mensagem.textContent = "Nenhum horário cadastrado.";
             return;
-
         }
-        // Remove a mensagem "Carregando horários..."
-        mensagem.remove();
 
-        // Cria os cursos e turmas
+        // Remove a mensagem de carregamento
+        if (mensagem) mensagem.remove();
+
+        // Cria os cursos e turmas com os dados corretos
         criarConteudo(dados);
-
     })
-
-
     .catch(erro => {
-
-        // Mostra mensagem caso o JSON não seja carregado
-        mensagem.className = "alert alert-danger";
-
-        mensagem.innerHTML = `
-            <strong>Erro ao carregar os horários.</strong><br>
-            ${erro.message}
-        `;
-
+        if (mensagem) {
+            mensagem.className = "alert alert-danger";
+            mensagem.innerHTML = `
+                <strong>Erro ao carregar os horários.</strong><br>
+                ${erro.message}
+            `;
+        }
         console.error(erro);
-
     });
+
 
 
 // ==========================================

@@ -5,7 +5,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Informática",
         "turma": "1º Ano",
-        "horario": "assets/img/EPTNM/imagen/1info.png"
+        "horario": "assets/img/PROSUB/imagen/1info.png"
     },
     {
         "id": 20,
@@ -13,7 +13,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Informática",
         "turma": "2º Ano A",
-        "horario": "assets/img/EPTNM/imagen/2info A.png"
+        "horario": "assets/img/PROSUB/imagen/2info A.png"
     },
      {
         "id": 21,
@@ -21,7 +21,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Informática",
         "turma": "2º Ano B",
-        "horario": "assets/img/EPTNM/imagen/2info B.png"
+        "horario": "assets/img/PROSUB/imagen/2info B.png"
     },
       {
         "id": 22,
@@ -29,7 +29,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Informática",
         "turma": "3º Ano",
-        "horario": "assets/img/EPTNM/imagen/3info.png"
+        "horario": "assets/img/PROSUB/imagen/3info.png"
     },
     {
         "id": 23,
@@ -37,7 +37,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Edificações",
         "turma": "1º Ano",
-        "horario": "assets/img/EPTNM/imagen/1edif.png"
+        "horario": "assets/img/PROSUB/imagen/1edif.png"
     },
     {
         "id": 24,
@@ -45,7 +45,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Edificações",
         "turma": "2º Ano",
-        "horario": "assets/img/EPTNM/imagen/2edif.png"
+        "horario": "assets/img/PROSUB/imagen/2edif.png"
     },
     {
         "id": 25,
@@ -53,7 +53,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Edificações",
         "turma": "3º Ano",
-        "horario": "assets/img/EPTNM/imagen/3edif.png"
+        "horario": "assets/img/PROSUB/imagen/3edif.png"
     },
     {
         "id": 26,
@@ -61,7 +61,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Logística",
         "turma": "1º Módulo",
-        "horario": "assets/img/EPTNM/imagen/1log.png"
+        "horario": "assets/img/PROSUB/imagen/1log.png"
     },
     {
         "id": 27,
@@ -69,7 +69,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Logística",
         "turma": "2º Ano",
-        "horario": "assets/img/EPTNM/imagen/2log.png"
+        "horario": "assets/img/PROSUB/imagen/2log.png"
     },
     {
         "id": 28,
@@ -77,7 +77,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Logística",
         "turma": "3º Ano",
-        "horario": "assets/img/EPTNM/imagen/3log.png"
+        "horario": "assets/img/PROSUB/imagen/3log.png"
     },
     {
         "id": 29,
@@ -85,7 +85,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Eletromecânica",
         "turma": "1º Módulo",
-        "horario": "assets/img/EPTNM/imagen/1eletro.png"
+        "horario": "assets/img/PROSUB/imagen/1eletro.png"
     },
     {
         "id": 30,
@@ -93,7 +93,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Eletromecânica",
         "turma": "2º Ano",
-        "horario": "assets/img/EPTNM/imagen/2eletro.png"
+        "horario": "assets/img/PROSUB/imagen/2eletro.png"
     },
     {
         "id": 31,
@@ -101,7 +101,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Eletromecânica",
         "turma": "3º Ano",
-        "horario": "assets/img/EPTNM/imagen/3eletro.png"
+        "horario": "assets/img/PROSUB/imagen/3eletro.png"
     },
     {
         "id": 32,
@@ -109,7 +109,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Segurança do Trabalho",
         "turma": "1º Ano",
-        "horario": "assets/img/EPTNM/imagen/1ST.png"
+        "horario": "assets/img/PROSUB/imagen/1ST.png"
     },
     {
         "id": 33,
@@ -117,7 +117,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Segurança do Trabalho",
         "turma": "2º Ano",
-        "horario": "assets/img/EPTNM/imagen/2ST.png"
+        "horario": "assets/img/PROSUB/imagen/2ST.png"
     },
     {
         "id": 34,
@@ -125,7 +125,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Segurança do Trabalho",
         "turma": "3º Ano",
-        "horario": "assets/img/EPTNM/imagen/3ST.png"
+        "horario": "assets/img/PROSUB/imagen/3ST.png"
     },
     {
         "id": 35,
@@ -133,7 +133,7 @@
         "turno": "Vespertino",
         "curso": "Técnico em Mecatrônica",
         "turma": "1º Ano",
-        "horario": "assets/img/EPTNM/imagen/1mct.png"
+        "horario": "assets/img/PROSUB/imagen/1mct.png"
     },
     {
         "id": 36,
@@ -141,6 +141,6 @@
         "turno": "Matutino",
         "curso": "Técnico em Mecatrônica",
         "turma": "2º Ano",
-        "horario": "assets/img/EPTNM/imagen/2mct.png"
+        "horario": "assets/img/PROSUB/imagen/2mct.png"
     }
 ]
