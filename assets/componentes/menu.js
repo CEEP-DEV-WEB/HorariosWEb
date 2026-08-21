@@ -1,5 +1,5 @@
 const menu = `
-    <section id="topo" class="py-2 bg-primary-subtle bg-gradient shadow-lg">
+    <section id="topo" class="py-2 bg-info bg-gradient shadow-lg">
 
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid px-4">

@@ -31,8 +31,16 @@
         "turma": "3º Ano",
         "horario": "assets/img/EPTNM/imagen/3info.png"
     },
-    {
+      {
         "id": 5,
+        "modalidade": "EPTNM",
+        "turno": "Vespertino",
+        "curso": "Técnico em Informática",
+        "turma": "1º Ano",
+        "horario": "assets/img/EPTNM/imagen/3info.png"
+    },
+    {
+        "id": 6,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Edificações",
@@ -40,7 +48,7 @@
         "horario": "assets/img/EPTNM/imagen/1edif.png"
     },
     {
-        "id": 6,
+        "id": 7,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Edificações",
@@ -48,7 +56,7 @@
         "horario": "assets/img/EPTNM/imagen/2edif.png"
     },
     {
-        "id": 7,
+        "id": 8,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Edificações",
@@ -56,7 +64,7 @@
         "horario": "assets/img/EPTNM/imagen/3edif.png"
     },
     {
-        "id": 8,
+        "id": 9,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Logística",
@@ -64,7 +72,7 @@
         "horario": "assets/img/EPTNM/imagen/1log.png"
     },
     {
-        "id": 9,
+        "id": 10,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Logística",
@@ -72,7 +80,7 @@
         "horario": "assets/img/EPTNM/imagen/2log.png"
     },
     {
-        "id": 10,
+        "id": 11,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Logística",
@@ -80,7 +88,7 @@
         "horario": "assets/img/EPTNM/imagen/3log.png"
     },
     {
-        "id": 11,
+        "id": 12,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Eletromecânica",
@@ -88,7 +96,7 @@
         "horario": "assets/img/EPTNM/imagen/1eletro.png"
     },
     {
-        "id": 12,
+        "id": 13,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Eletromecânica",
@@ -96,7 +104,7 @@
         "horario": "assets/img/EPTNM/imagen/2eletro.png"
     },
     {
-        "id": 13,
+        "id": 14,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Eletromecânica",
@@ -104,7 +112,7 @@
         "horario": "assets/img/EPTNM/imagen/3eletro.png"
     },
     {
-        "id": 14,
+        "id": 15,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Segurança do Trabalho",
@@ -112,7 +120,7 @@
         "horario": "assets/img/EPTNM/imagen/1ST.png"
     },
     {
-        "id": 15,
+        "id": 16,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Segurança do Trabalho",
@@ -120,7 +128,7 @@
         "horario": "assets/img/EPTNM/imagen/2ST.png"
     },
     {
-        "id": 16,
+        "id": 17,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Segurança do Trabalho",
@@ -128,7 +136,7 @@
         "horario": "assets/img/EPTNM/imagen/3ST.png"
     },
     {
-        "id": 17,
+        "id": 18,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Mecatrônica",
@@ -136,7 +144,7 @@
         "horario": "assets/img/EPTNM/imagen/1mct.png"
     },
     {
-        "id": 18,
+        "id": 19,
         "modalidade": "EPTNM",
         "turno": "Matutino",
         "curso": "Técnico em Mecatrônica",

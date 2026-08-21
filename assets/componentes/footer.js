@@ -1,23 +1,23 @@
 const footer = `
-    <footer class="container-fluid bg-danger mt-5">
+    <footer class="container-fluid bg-primary-subtle mt-5">
         <div class="container py-5">
             <div class="row g-4">
                 <!-- SOBRE O SISTEMA -->
                 <div class="col-12 col-md-5">
-                    <h5 class="fw-bold mb-3 text-white">
+                    <h5 class="fw-bold mb-3 text-dark-emphasis">
                         Sistema de Horários
                     </h5>
-                    <p class="text-white mb-2">
+                    <p class="text-dark-emphasis mb-2">
                         Sistema online para consulta dos horários das turmas.
                     </p>
 
-                    <p class="text-white mb-0">
+                    <p class="text-dark-emphasis mb-0">
                         CEEP Áureo de Oliveira Filho
                     </p>
                 </div>
 
                 <!-- LINKS -->
-                <div class="col-6 col-md-3 text-white">
+                <div class="col-6 col-md-3 text-dark-emphasis">
                     <h5 class="fw-bold mb-3">
                         Acesso rápido
                     </h5>
@@ -25,21 +25,21 @@ const footer = `
                     <ul class="list-unstyled">
                         <li class="mb-2">
                             <a href="index.html"
-                            class="link-light link-opacity-75-hover text-decoration-none">
+                            class="link-dark link-opacity-75-hover text-decoration-none">
                                 Início
                             </a>
                         </li>
 
                         <li class="mb-2">
                             <a href="eptnm.html"
-                            class="link-light link-opacity-75-hover text-decoration-none">
+                            class="link-dark link-opacity-75-hover text-decoration-none">
                                 EPTNM
                             </a>
                         </li>
 
                         <li class="mb-2">
                             <a href="prosub.html"
-                            class="link-light link-opacity-75-hover text-decoration-none">
+                            class="link-dark link-opacity-75-hover text-decoration-none">
                                 PROSUB
                             </a>
                         </li>
@@ -48,13 +48,13 @@ const footer = `
 
                 <!-- REDES SOCIAIS -->
                 <div class="col-6 col-md-3 ">
-                    <h5 class="fw-bold mb-3 d-flex justify-content-end text-white">
+                    <h5 class="fw-bold mb-3 d-flex justify-content-end text-dark-emphasis">
                         Redes Sociais
                     </h5>
                     <div class="d-flex justify-content-end gap-3 ">
                         <!-- Instagram da escola -->
                         <a href="#"
-                        class="text-white fs-4"
+                        class="text-dark-emphasis fs-4"
                         target="_blank"
                         title="Instagram do CEEP">
                             <i class="bi bi-instagram"></i>
@@ -62,7 +62,7 @@ const footer = `
 
                         <!-- Facebook da escola -->
                         <a href="#"
-                        class="text-white fs-4"
+                        class="text-dark-emphasis fs-4"
                         target="_blank"
                         title="Facebook do CEEP">
                             <i class="bi bi-facebook"></i>
@@ -70,7 +70,7 @@ const footer = `
 
                         <!-- E-mail da escola -->
                         <a href="mailto:email@exemplo.com"
-                        class="text-white fs-4"
+                        class="text-dark-emphasis fs-4"
                         title="E-mail">
                             <i class="bi bi-envelope-fill"></i>
                         </a>
@@ -85,17 +85,17 @@ const footer = `
             <!-- PARTE INFERIOR -->
             <div class="d-flex justify-content-between align-items-center gap-3">
 
-                <p class="text-white mb-0 small">
+                <p class="text-dark-emphasis mb-0 small">
                     &copy; <span id="ano"></span>
 
-                    <span class="fw-bold text-white">
+                    <span class="fw-bold text-dark-emphasis">
                         Almatec
                     </span>
 
                     <span class="mx-1">•</span>
 
                     Desenvolvido por
-                    <span class="fw-semibold text-white">
+                    <span class="fw-semibold text-dark-emphasis">
                         Hellen Caldas
                     </span>
 
@@ -109,7 +109,7 @@ const footer = `
 
                     <!-- LINKEDIN -->
                     <a href="#"
-                    class="link-light fs-5"
+                    class="link-dark fs-5"
                     target="_blank"
                     title="LinkedIn">
                         <i class="bi bi-linkedin"></i>
@@ -117,7 +117,7 @@ const footer = `
 
                     <!-- GITHUB -->
                     <a href="#"
-                    class="link-light fs-5"
+                    class="link-dark fs-5"
                     target="_blank"
                     title="GitHub">
                         <i class="bi bi-github"></i>
@@ -125,7 +125,7 @@ const footer = `
 
                     <!-- INSTAGRAM -->
                     <a href="#"
-                    class="link-light fs-5"
+                    class="link-dark fs-5"
                     target="_blank"
                     title="Instagram">
                         <i class="bi bi-instagram"></i>
