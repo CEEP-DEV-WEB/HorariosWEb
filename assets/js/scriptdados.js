@@ -661,11 +661,9 @@ function ativarBarraPesquisa() {
 
 }
 
-
 // ==========================================================
 // INICIA O SISTEMA
 // ==========================================================
-
 document.addEventListener(
     "DOMContentLoaded",
     carregarHorarios
